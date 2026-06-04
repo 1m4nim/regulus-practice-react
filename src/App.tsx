@@ -1,5 +1,6 @@
 import "./App.css"
-import Question10 from "./components/Question10";
+import Counter from "./components/Question11";
+//import Question10 from "./components/Question10";
 //import Question09 from "./components/Question09";
 //import Question08 from "./components/Question08";
 //import Question07 from "./components/Question07";
@@ -13,7 +14,8 @@ function App() {
       {/**<Question07 />*/}
       {/* <Question08 /> */}
       {/* <Question09 /> */}
-      <Question10 />
+      {/* <Question10 /> */}
+      <Counter />
     </>
   )
 }

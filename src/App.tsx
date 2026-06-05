@@ -1,5 +1,6 @@
 import "./App.css"
-import TextInput from "./components/Question12";
+import ToggleSwitch from "./components/Question13";
+//import TextInput from "./components/Question12";
 //import Counter from "./components/Question11";
 //import Question10 from "./components/Question10";
 //import Question09 from "./components/Question09";
@@ -17,7 +18,8 @@ function App() {
       {/* <Question09 /> */}
       {/* <Question10 /> */}
       {/* <Counter /> */}
-      <TextInput />
+      {/* <TextInput /> */}
+      <ToggleSwitch />
     </>
   )
 }

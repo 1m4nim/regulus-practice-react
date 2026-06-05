@@ -3,7 +3,7 @@ import { useState, type ChangeEvent } from "react";
 function TextInput() {
     const [text, setText] = useState("");
 
-    const hnadleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const hanadleChange = (event: ChangeEvent<HTMLInputElement>) => {
         setText(event.target.value);
     }
 
@@ -16,7 +16,7 @@ function TextInput() {
             <input
                 type="text"
                 value={text}
-                onChange={hnadleChange}
+                onChange={hanadleChange}
                 placeholder="ここに入力してください"
 
             />

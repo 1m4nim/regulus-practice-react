@@ -1,5 +1,6 @@
 import "./App.css"
-import Counter from "./components/Question11";
+import TextInput from "./components/Question12";
+//import Counter from "./components/Question11";
 //import Question10 from "./components/Question10";
 //import Question09 from "./components/Question09";
 //import Question08 from "./components/Question08";
@@ -15,7 +16,8 @@ function App() {
       {/* <Question08 /> */}
       {/* <Question09 /> */}
       {/* <Question10 /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <TextInput />
     </>
   )
 }

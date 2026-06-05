@@ -1,5 +1,6 @@
 import "./App.css"
-import ToggleSwitch from "./components/Question13";
+import RegistrationForm from "./components/Question14";
+//import ToggleSwitch from "./components/Question13";
 //import TextInput from "./components/Question12";
 //import Counter from "./components/Question11";
 //import Question10 from "./components/Question10";
@@ -19,7 +20,8 @@ function App() {
       {/* <Question10 /> */}
       {/* <Counter /> */}
       {/* <TextInput /> */}
-      <ToggleSwitch />
+      {/* <ToggleSwitch /> */}
+      <RegistrationForm />
     </>
   )
 }

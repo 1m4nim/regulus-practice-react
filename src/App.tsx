@@ -1,5 +1,6 @@
 import "./App.css"
-import TodoList from "./components/Question15";
+import ClickButtons from "./components/Question16";
+//import TodoList from "./components/Question15";
 //import RegistrationForm from "./components/Question14";
 //import ToggleSwitch from "./components/Question13";
 //import TextInput from "./components/Question12";
@@ -23,7 +24,8 @@ function App() {
       {/* <TextInput /> */}
       {/* <ToggleSwitch /> */}
       {/* <RegistrationForm /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <ClickButtons />
     </>
   )
 }
